@@ -1,3 +1,29 @@
+/* --- SIZE-ADJUSTED FALLBACK FONTS (minimize layout shift) --- */
+@font-face {
+    font-family: 'Instrument Serif Fallback';
+    src: local('Times New Roman');
+    size-adjust: 105%;
+    ascent-override: 95%;
+    descent-override: 22%;
+    line-gap-override: 0%;
+}
+@font-face {
+    font-family: 'Inter Fallback';
+    src: local('Arial'), local('Helvetica');
+    size-adjust: 107%;
+    ascent-override: 90%;
+    descent-override: 22%;
+    line-gap-override: 0%;
+}
+@font-face {
+    font-family: 'JetBrains Mono Fallback';
+    src: local('Courier New'), local('monospace');
+    size-adjust: 95%;
+    ascent-override: 95%;
+    descent-override: 24%;
+    line-gap-override: 0%;
+}
+
 /* --- DESIGN TOKENS --- */
 :root {
     --bg-paper: #F2F0E9;
@@ -8,18 +34,22 @@
     --border-subtle: rgba(0, 0, 0, 0.06);
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.03);
     --radius-lg: 24px;
-    --font-serif: 'Instrument Serif', 'Times New Roman', serif;
-    --font-sans: 'Inter', -apple-system, sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
+    --font-serif: 'Instrument Serif', 'Instrument Serif Fallback', 'Times New Roman', serif;
+    --font-sans: 'Inter', 'Inter Fallback', -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', 'JetBrains Mono Fallback', monospace;
     
     /* Status Colors */
     --status-green: #22c55e;
     --status-bg: #18181b;
 }
 
-/* Prevent Font Glitch (FOUC) */
+/* Smooth font loading transition */
 .fonts-loading body {
-    visibility: hidden;
+    opacity: 0;
+}
+.fonts-loaded body {
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
 }
 
 * { 
