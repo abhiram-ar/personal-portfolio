@@ -59,7 +59,7 @@
     <!-- Font Preloading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=fallback">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=block">
     
     <!-- Critical CSS inlined for faster First Contentful Paint -->
     <style>
@@ -118,7 +118,7 @@
         // Wait for fonts, then smoothly fade in
         Promise.race([
             document.fonts.ready,
-            new Promise(resolve => setTimeout(resolve, 800)) // Max wait 800ms
+            new Promise(resolve => setTimeout(resolve, 1500)) // Max wait 1500ms
         ]).then(() => {
             document.documentElement.classList.remove("fonts-loading");
             document.documentElement.classList.add("fonts-loaded");
