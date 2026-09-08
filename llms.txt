@@ -1,0 +1,34 @@
+# Abhiram S Sajeev
+
+> Software engineer focused on backend systems, applied AI/ML and full stack development. Software engineer (Gen AI and backend) at Skai Lama since March 2026, working remote from Kerala, India. Previously led the 12-microservice backend of the ToGather app. Node.js, TypeScript, PostgreSQL, Kafka, Kubernetes; full-stack work in React.
+
+## Work
+
+- Skai Lama (2026–): built the MCP (Model Context Protocol) server that plugs Shopify Sidekick into setup guidance and analytics (12% adoption among high-GMV merchants in month one; churn fell 20%); moved async-eligible inter-service calls to AWS SQS; closed five critical vulnerabilities in an internal tool; ran more than fifty technical interviews.
+- ToGather (2025–26), lead software engineer: system design with an ML engineer, 12 microservices on Kubernetes, five-person team, ticketing with locking against double-booking. Design: https://app.eraser.io/workspace/usjrmSV4kMknwwElSJAP · Infra: https://github.com/CrossroadsAcademy/togather-infra
+- BigBinary Academy (2024–25), volunteer QA: more than 200 issues filed; proposed an adopted diff-checker for student code.
+
+## Education
+
+- Mar Athanasius College of Engineering (2020–24): B.Tech, Computer Science and Engineering (with specialization in Data Science), APJ KTU.
+
+## Projects
+
+- [Humane](https://github.com/abhiram-ar/humane-backend): distributed social platform; nine event-driven microservices, CQRS on Elasticsearch, P99 under 100 ms, custom WebRTC call protocol, CNN + FFmpeg moderation pipeline. Live: https://humane-frontend.vercel.app
+- [AICademy](https://aicademy.abhiram-ar.com/): course platform with an agent that answers from the lecture video, streamed over WebSockets; adaptive-bitrate streaming; RabbitMQ transcoding pipeline. Code: https://github.com/abhiram-ar/aicademy-backend and https://github.com/abhiram-ar/aicademy-fontend
+- [PowerToys Run plugin](https://github.com/Daydreamer-riri/PowerToys-Run-WebSearchShortcut/releases/tag/0.6.2): YouTube and ChatGPT search with autocomplete, merged upstream, more than 100K users.
+
+## Recognition
+
+- 2026: hackathon winner, with a Shopify app that tunes a merchant’s catalog for agentic commerce (https://github.com/abhiram-ar/agentic-commerce-hackathon)
+- 2026: employee of the month, Skai Lama
+- 2025: best student performer across four Brototype campuses (about 2,000 students)
+- 2023: GATE, Computer Science, All India Rank 3935
+
+## Contact
+
+- Email: abhiram2001.ars@gmail.com
+- GitHub: https://github.com/abhiram-ar
+- LinkedIn: https://www.linkedin.com/in/abhiram-s-sajeev/
+- X: https://x.com/0xabhiram_ar
+- Resume (PDF, Google Drive): https://drive.google.com/file/d/1OAi-Mx91Er6_2ZnRiBqDSP4ZwqeTqrdp/view?usp=sharing
