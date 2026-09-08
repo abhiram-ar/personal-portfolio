@@ -139,6 +139,20 @@ h1 em {
     max-width: 580px;
 }
 
+.tagline {
+    font-family: var(--font-serif);
+    font-size: clamp(1.4rem, 2.8vw, 1.8rem);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--text-primary);
+    margin: -0.25rem 0 1.5rem;
+}
+
+.tagline em {
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
 /* --- BENTO GRID --- */
 .bento-grid {
     display: grid;
