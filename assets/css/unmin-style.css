@@ -411,7 +411,7 @@ footer {
 .declaration {
     margin-top: 2rem;
     max-width: 580px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     line-height: 1.7;
     color: var(--text-secondary);
 }
@@ -421,9 +421,5 @@ footer {
 }
 
 .declaration-title {
-    font-family: var(--font-serif);
-    font-style: italic;
-    font-size: 1.1rem;
-    color: var(--text-primary);
     margin-bottom: 0.35rem;
 }
